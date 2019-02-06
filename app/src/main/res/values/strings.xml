@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PoCAscomMyco2</string>
+    <string name="btn_scan">SCAN A BARCODE</string>
+</resources>
