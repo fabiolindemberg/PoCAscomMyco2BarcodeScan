@@ -3,6 +3,7 @@
     package="descarteseletivo2.fabiolindemberg.com.br.pocascommyco2">
 
     <uses-permission android:name="com.ascom.myco.permission.RECEIVE_TOP_BUTTON_EVENTS"/>
+    <uses-permission android:name="com.ascom.permission.BARCODE_SCANNER"/>
 
     <application
         android:allowBackup="true"
@@ -11,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <uses-library android:name="com.ascom.myco.Sdk"/>
+        <uses-library android:name="com.ascom.myco.sdk"/>
         <receiver android:name=".TopButtonEventReceiver"
             android:permission="com.ascom.myco.permission.RECEIVE_TOP_BUTTON_EVENTS">
             <intent-filter>
